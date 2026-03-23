@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  color: #2D3436;
+  background-color: #FDFCFA;
+}
+
+::selection {
+  background-color: #7C9A82;
+  color: white;
+}

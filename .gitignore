@@ -1,0 +1,5 @@
+supporting_docs/
+node_modules/
+dist/
+.env
+*.local
