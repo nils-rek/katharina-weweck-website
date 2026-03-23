@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-28 pb-20 bg-cream-50 min-h-screen">
-    <div class="max-w-3xl mx-auto px-6">
+  <div class="bg-cream-50 min-h-screen flex flex-col">
+    <div class="max-w-3xl mx-auto px-6 pt-28 pb-20 flex-1">
       <router-link to="/" class="inline-flex items-center gap-2 text-sage-400 hover:text-sage-500 text-sm mb-8 transition-colors">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.75 19.5 8.25 12l7.5-7.5" />
