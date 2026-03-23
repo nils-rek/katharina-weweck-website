@@ -36,11 +36,11 @@
         <div class="order-1 md:order-2 flex justify-center">
           <div class="relative">
             <div class="w-64 h-80 md:w-72 md:h-96 rounded-2xl bg-sage-100 overflow-hidden shadow-lg">
-              <div class="w-full h-full flex items-center justify-center text-sage-300">
-                <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
-                </svg>
-              </div>
+              <img
+                src="/images/kweweck_profile.jpeg"
+                alt="Dr. Katharina Weweck"
+                class="w-full h-full object-cover"
+              />
             </div>
             <!-- Decorative accent -->
             <div class="absolute -bottom-3 -right-3 w-64 h-80 md:w-72 md:h-96 rounded-2xl border-2 border-sage-200 -z-10"></div>
