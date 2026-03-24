@@ -1,7 +1,7 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
-    :class="scrolled ? 'bg-cream-50/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'"
+    class="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
+    :class="scrolled ? 'bg-cream-50/95 backdrop-blur-sm shadow-md' : 'bg-transparent'"
   >
     <nav class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
       <router-link to="/" class="font-serif text-lg md:text-xl font-bold text-charcoal hover:text-sage-400 transition-colors">
@@ -13,7 +13,8 @@
         <li v-for="link in navLinks" :key="link.href">
           <a
             :href="link.href"
-            class="text-sm font-medium tracking-wide text-charcoal/70 hover:text-sage-400 transition-colors"
+            class="link-underline text-sm font-medium tracking-wide transition-colors"
+            :class="activeSection === link.href ? 'text-sage-400' : 'text-charcoal/70 hover:text-sage-400'"
             @click.prevent="scrollTo(link.href)"
           >
             {{ link.label }}
@@ -50,7 +51,8 @@
           <li v-for="link in navLinks" :key="link.href">
             <a
               :href="link.href"
-              class="block py-2 text-sm font-medium text-charcoal/70 hover:text-sage-400 transition-colors"
+              class="block py-2 text-sm font-medium transition-colors"
+              :class="activeSection === link.href ? 'text-sage-400' : 'text-charcoal/70 hover:text-sage-400'"
               @click.prevent="scrollTo(link.href); mobileOpen = false"
             >
               {{ link.label }}
@@ -69,6 +71,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 const scrolled = ref(false)
 const mobileOpen = ref(false)
+const activeSection = ref('')
 
 const navLinks = [
   { label: 'Über mich', href: '#ueber-mich' },
@@ -76,6 +79,9 @@ const navLinks = [
   { label: 'Ablauf', href: '#ablauf' },
   { label: 'Kontakt', href: '#kontakt' },
 ]
+
+const sectionIds = ['ueber-mich', 'therapieangebot', 'ablauf', 'kontakt']
+let sectionObserver = null
 
 function scrollTo(href) {
   if (router.currentRoute.value.path !== '/') {
@@ -90,6 +96,31 @@ function onScroll() {
   scrolled.value = window.scrollY > 20
 }
 
-onMounted(() => window.addEventListener('scroll', onScroll))
-onUnmounted(() => window.removeEventListener('scroll', onScroll))
+function setupSectionObserver() {
+  sectionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          activeSection.value = '#' + entry.target.id
+        }
+      })
+    },
+    { threshold: 0.3, rootMargin: '-80px 0px -50% 0px' }
+  )
+
+  sectionIds.forEach((id) => {
+    const el = document.getElementById(id)
+    if (el) sectionObserver.observe(el)
+  })
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', onScroll)
+  setupSectionObserver()
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', onScroll)
+  if (sectionObserver) sectionObserver.disconnect()
+})
 </script>

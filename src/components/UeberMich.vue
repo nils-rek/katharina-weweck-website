@@ -3,16 +3,16 @@
     <div class="max-w-5xl mx-auto px-6">
       <div class="grid md:grid-cols-5 gap-12 md:gap-16 items-start">
         <!-- Left: Section heading -->
-        <div class="md:col-span-2">
+        <div class="md:col-span-2" v-bind="headingReveal">
           <p class="text-sage-400 font-medium tracking-widest text-sm uppercase mb-3">Über mich</p>
           <h2 class="font-serif text-3xl md:text-4xl font-bold text-charcoal leading-snug">
             Persönlich. Kompetent. Engagiert.
           </h2>
-          <div class="mt-6 w-16 h-0.5 bg-sage-400/40"></div>
+          <div class="mt-6 gold-rule"></div>
         </div>
 
         <!-- Right: Bio text -->
-        <div class="md:col-span-3 space-y-5 text-charcoal/80 leading-relaxed text-[1.05rem]">
+        <div class="md:col-span-3 space-y-5 text-charcoal/80 leading-relaxed text-[1.05rem]" v-bind="bioReveal">
           <p>
             Herzlich willkommen! Ich bin Dr. Katharina Weweck, approbierte Psychologische
             Psychotherapeutin mit dem Schwerpunkt Verhaltenstherapie. In meiner Praxis in Kolbermoor
@@ -42,9 +42,10 @@
       <!-- Qualifications -->
       <div class="mt-16 grid sm:grid-cols-3 gap-6">
         <div
-          v-for="qual in qualifications"
+          v-for="(qual, i) in qualifications"
           :key="qual.title"
-          class="bg-cream-50 rounded-xl p-6 border border-cream-200/60"
+          v-bind="cardReveals[i]"
+          class="bg-cream-50 rounded-xl p-6 border border-cream-200/60 border-t-2 border-t-gold-400/40 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
         >
           <div class="w-10 h-10 rounded-lg bg-sage-100 flex items-center justify-center mb-4">
             <svg class="w-5 h-5 text-sage-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -62,6 +63,18 @@
 </template>
 
 <script setup>
+import { useScrollReveal } from '../composables/useScrollReveal'
+
+const { reveal } = useScrollReveal()
+
+const headingReveal = reveal()
+const bioReveal = reveal({ delay: 100 })
+const cardReveals = [
+  reveal({ delay: 0 }),
+  reveal({ delay: 80 }),
+  reveal({ delay: 160 }),
+]
+
 const qualifications = [
   {
     icon: 'academic',
