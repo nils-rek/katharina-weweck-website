@@ -77,10 +77,11 @@ const navLinks = [
   { label: 'Über mich', href: '#ueber-mich' },
   { label: 'Therapieangebot', href: '#therapieangebot' },
   { label: 'Ablauf', href: '#ablauf' },
+  { label: 'Kosten', href: '#honorar' },
   { label: 'Kontakt', href: '#kontakt' },
 ]
 
-const sectionIds = ['ueber-mich', 'therapieangebot', 'ablauf', 'kontakt']
+const sectionIds = ['ueber-mich', 'therapieangebot', 'ablauf', 'honorar', 'kontakt']
 let sectionObserver = null
 
 function scrollTo(href) {

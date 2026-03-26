@@ -5,8 +5,8 @@
     <UeberMich />
     <Therapieangebot />
     <Ablauf />
-    <Kontakt />
     <Honorar />
+    <Kontakt />
     <FooterSection />
   </div>
 </template>

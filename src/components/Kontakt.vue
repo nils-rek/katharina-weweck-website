@@ -1,5 +1,5 @@
 <template>
-  <section id="kontakt" class="py-24 md:py-32 bg-cream-100">
+  <section id="kontakt" class="py-24 md:py-32 bg-white">
     <div class="max-w-5xl mx-auto px-6">
       <div class="text-center mb-16" v-bind="headerReveal">
         <p class="text-sage-400 font-medium tracking-widest text-sm uppercase mb-3">Kontakt</p>

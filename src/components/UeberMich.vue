@@ -44,7 +44,7 @@
       </div>
 
       <!-- Qualifications -->
-      <div class="mt-16 grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+      <div class="mt-16 grid sm:grid-cols-3 gap-6">
         <div
           v-for="(qual, i) in qualifications"
           :key="qual.title"
@@ -76,6 +76,7 @@ const bioReveal = reveal({ delay: 100 })
 const cardReveals = [
   reveal({ delay: 0 }),
   reveal({ delay: 80 }),
+  reveal({ delay: 160 }),
 ]
 
 const qualifications = [
@@ -88,6 +89,11 @@ const qualifications = [
     icon: 'clinic',
     title: 'Approbierte Psychotherapeutin',
     text: 'Ausbildung an der Kirinus Akademie München mit Schwerpunkt Kognitive Verhaltenstherapie in Einzel- und Gruppensetting.',
+  },
+  {
+    icon: 'research',
+    title: 'Klinische Forschung',
+    text: 'Wissenschaftliche Tätigkeit am Max-Planck-Institut für Psychiatrie mit Publikationen in internationalen Fachzeitschriften.',
   },
 ]
 </script>
