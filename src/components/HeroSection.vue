@@ -25,7 +25,7 @@
           </h1>
           <div class="hero-enter animate-hero-fade-in-2 gold-rule mb-6"></div>
           <p class="hero-enter animate-hero-fade-in-2 text-lg md:text-xl text-charcoal/70 leading-relaxed mb-8 max-w-lg">
-            Einfühlsame und evidenzbasierte Psychotherapie in Kolbermoor — in Präsenz und online.
+            Einfühlsame und evidenzbasierte Psychotherapie in Kolbermoor.
           </p>
           <div class="hero-enter animate-hero-fade-in-3 flex flex-col sm:flex-row gap-4">
             <a

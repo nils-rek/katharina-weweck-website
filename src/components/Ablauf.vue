@@ -4,12 +4,12 @@
       <div class="text-center mb-16" v-bind="headerReveal">
         <p class="text-sage-400 font-medium tracking-widest text-sm uppercase mb-3">Ablauf</p>
         <h2 class="font-serif text-3xl md:text-4xl font-bold text-charcoal leading-snug">
-          Der Weg in die Therapie
+          Der Weg in die Behandlung
         </h2>
         <div class="gold-rule mx-auto mt-5"></div>
         <p class="mt-4 text-charcoal/60 max-w-2xl mx-auto">
           Der Beginn einer Therapie ist ein wichtiger Schritt. Hier erfahren Sie,
-          wie der Weg in meine Praxis aussieht.
+          wie der Weg in die Behandlung aussieht.
         </p>
       </div>
 

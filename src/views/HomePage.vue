@@ -6,6 +6,7 @@
     <Therapieangebot />
     <Ablauf />
     <Kontakt />
+    <Honorar />
     <FooterSection />
   </div>
 </template>
@@ -17,5 +18,6 @@ import UeberMich from '../components/UeberMich.vue'
 import Therapieangebot from '../components/Therapieangebot.vue'
 import Ablauf from '../components/Ablauf.vue'
 import Kontakt from '../components/Kontakt.vue'
+import Honorar from '../components/Honorar.vue'
 import FooterSection from '../components/FooterSection.vue'
 </script>

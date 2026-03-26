@@ -32,7 +32,7 @@
 
           <!-- Email -->
           <a
-            href="mailto:Psychotherapie.weweck@posteo.de"
+            href="mailto:psychotherapie.weweck@posteo.de"
             v-bind="emailReveal"
             class="group bg-white rounded-xl p-8 border border-cream-200/60 hover:-translate-y-2 hover:shadow-xl transition-all duration-300 text-center focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2"
           >
@@ -42,7 +42,7 @@
               </svg>
             </div>
             <p class="text-sm text-charcoal/50 mb-1">E-Mail</p>
-            <p class="font-medium text-charcoal">Psychotherapie.weweck@posteo.de</p>
+            <p class="font-medium text-charcoal">psychotherapie.weweck@posteo.de</p>
           </a>
         </div>
 
@@ -53,7 +53,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
             </svg>
-            Praxis in Kolbermoor bei Rosenheim
+            Praxisraum in Kolbermoor bei Rosenheim
           </div>
         </div>
       </div>
