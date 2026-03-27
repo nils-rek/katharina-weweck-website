@@ -5,6 +5,7 @@ const routes = [
   { path: '/', component: HomePage },
   { path: '/impressum', component: () => import('./views/Impressum.vue') },
   { path: '/datenschutz', component: () => import('./views/Datenschutz.vue') },
+  { path: '/:pathMatch(.*)*', component: () => import('./views/NotFound.vue') },
 ]
 
 const router = createRouter({
