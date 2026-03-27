@@ -16,12 +16,16 @@
           <p>
             Verantwortlich für die Verarbeitung personenbezogener Daten auf dieser Website ist:<br /><br />
             Dr. Katharina Weweck<br />
-            Psychologische Psychotherapeutin<br />
+            Psychologische Psychotherapeutin<br /><br />
             Räumlichkeiten der Praxis Bernadette Tegzes<br />
             Carl-Jordan-Straße 13<br />
-            83059 Kolbermoor<br />
+            83059 Kolbermoor<br /><br />
             Telefon: 0160 9034 7932<br />
             E-Mail: psychotherapie.weweck@posteo.de
+          </p>
+          <p class="mt-3">
+            Datenschutzbeauftragte/r:<br />
+            Es besteht keine Verpflichtung zur Benennung eines Datenschutzbeauftragten gemäß Art. 37 DSGVO.
           </p>
         </div>
 
@@ -31,8 +35,6 @@
             Der Schutz Ihrer persönlichen Daten ist mir ein wichtiges Anliegen. Ich behandle Ihre
             personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften,
             insbesondere der Datenschutz-Grundverordnung (DSGVO), sowie dieser Datenschutzerklärung.
-          </p>
-          <p class="mt-3">
             Personenbezogene Daten werden nur verarbeitet, soweit eine gesetzliche Grundlage besteht
             oder Sie hierzu eingewilligt haben.
           </p>
@@ -60,7 +62,7 @@
           </p>
           <p class="mt-3">
             Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der technischen
-            Sicherheit und Stabilität).
+            Sicherheit und Stabilität)
           </p>
           <p class="mt-3">
             Die Daten werden nicht mit anderen Datenquellen zusammengeführt und nicht verwendet,
@@ -77,14 +79,14 @@
             Bearbeitung Ihrer Anfrage gespeichert und verwendet.
           </p>
           <p class="mt-3">
-            Rechtsgrundlage:<br />
-            Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) oder<br />
-            Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung Ihrer Anfrage).
+            Rechtsgrundlage:
           </p>
+          <ul class="list-disc list-inside mt-2 space-y-1">
+            <li>Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) oder</li>
+            <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung Ihrer Anfrage)</li>
+          </ul>
           <p class="mt-3">
             Eine Weitergabe an Dritte erfolgt nicht ohne Ihre ausdrückliche Einwilligung.
-          </p>
-          <p class="mt-3">
             Bitte beachten Sie, dass die Datenübertragung per E-Mail Sicherheitslücken aufweisen kann.
             Schreiben Sie daher keine sensiblen Gesundheitsdaten in unverschlüsselte E-Mails.
           </p>
@@ -107,8 +109,8 @@
             Werbedienste. Es werden keine personenbezogenen Daten zu Marketing- oder Analysezwecken erhoben.
           </p>
           <p class="mt-3">
-            Sollten zukünftig Cookies oder Analyse-Dienste eingesetzt werden, wird diese
-            Datenschutzerklärung entsprechend angepasst.
+            (Sollten zukünftig Cookies oder Analyse-Dienste eingesetzt werden, wird diese
+            Datenschutzerklärung entsprechend angepasst.)
           </p>
         </div>
 
@@ -118,17 +120,18 @@
             Diese Website nutzt zur einheitlichen Darstellung von Schriftarten sogenannte
             Google Fonts, die von Google bereitgestellt werden. Beim Aufruf der Seite lädt Ihr
             Browser die benötigten Schriftarten direkt von Google-Servern. Dabei kann Ihre
-            IP-Adresse an Google übermittelt werden.
+            IP-Adresse an Google übermittelt werden. Es kann nicht ausgeschlossen werden, dass
+            dabei Daten in ein Drittland (z.B. die USA) übermittelt werden.
           </p>
           <p class="mt-3">
             Weitere Informationen finden Sie in der Datenschutzerklärung von Google:
             <a href="https://policies.google.com/privacy" class="text-sage-400 hover:text-sage-500 underline" target="_blank" rel="noopener noreferrer">
               https://policies.google.com/privacy
-            </a>.
+            </a>
           </p>
           <p class="mt-3">
             Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer
-            ansprechenden Darstellung der Website).
+            ansprechenden Darstellung der Website)
           </p>
         </div>
 
@@ -150,7 +153,14 @@
         </div>
 
         <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">9. Beschwerderecht bei der Aufsichtsbehörde</h2>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">9. Keine automatisierte Entscheidungsfindung</h2>
+          <p>
+            Eine automatisierte Entscheidungsfindung oder ein Profiling gemäß Art. 22 DSGVO findet nicht statt.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">10. Beschwerderecht bei der Aufsichtsbehörde</h2>
           <p>
             Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
           </p>
@@ -164,7 +174,7 @@
         </div>
 
         <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">10. Aktualität und Änderungen dieser Datenschutzerklärung</h2>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">11. Aktualität und Änderungen dieser Datenschutzerklärung</h2>
           <p>
             Diese Datenschutzerklärung ist aktuell gültig (Stand: März 2026). Durch Weiterentwicklung
             der Website oder gesetzliche Änderungen kann eine Aktualisierung erforderlich werden.
