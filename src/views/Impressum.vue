@@ -15,8 +15,7 @@
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">Angaben gemäß § 5 TMG</h2>
           <p>
             Dr. Katharina Weweck<br />
-            Psychologische Psychotherapeutin<br />
-            Kolbermoor
+            Psychologische Psychotherapeutin
           </p>
           <p class="mt-3">
             Räumlichkeiten der Praxis Bernadette Tegzes<br />
