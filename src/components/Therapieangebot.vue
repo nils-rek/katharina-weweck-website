@@ -50,16 +50,6 @@
         </div>
       </div>
 
-      <!-- Format info -->
-      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center" v-bind="formatReveal">
-        <div class="flex items-center gap-3 text-charcoal/60 text-sm">
-          <svg class="w-5 h-5 text-sage-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-          </svg>
-          Therapie vor Ort in Kolbermoor
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -76,7 +66,6 @@ const cardReveals = [
   reveal({ delay: 160 }),
 ]
 const spectrumReveal = reveal({ delay: 50 })
-const formatReveal = reveal({ delay: 100 })
 
 const approaches = [
   {
