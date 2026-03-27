@@ -48,18 +48,18 @@
         <!-- Photo -->
         <div class="order-1 md:order-2 flex justify-center hero-enter animate-hero-fade-in-4">
           <div class="relative">
-            <div class="w-64 h-80 md:w-72 md:h-96 rounded-2xl bg-sage-100 overflow-hidden shadow-xl shadow-sage-400/10">
+            <div class="w-60 h-[22rem] md:w-72 md:h-[28rem] rounded-2xl bg-sage-100 overflow-hidden shadow-xl shadow-sage-400/10">
               <img
                 src="/images/kweweck_profile.jpeg"
-                alt="Dr. Katharina Weweck"
-                class="w-full h-full object-cover"
+                alt="Dr. Katharina Weweck im Gespräch"
+                class="w-full h-full object-cover object-[center_20%]"
                 loading="eager"
                 fetchpriority="high"
               />
             </div>
             <!-- Organic accent shape behind photo -->
-            <svg class="absolute -bottom-4 -right-4 w-72 h-96 -z-10 opacity-20" viewBox="0 0 288 384" fill="none">
-              <rect x="8" y="8" width="272" height="368" rx="16" stroke="#C4A265" stroke-width="2" fill="none"/>
+            <svg class="absolute -bottom-4 -right-4 w-72 h-[28rem] -z-10 opacity-20" viewBox="0 0 288 448" fill="none">
+              <rect x="8" y="8" width="272" height="432" rx="16" stroke="#C4A265" stroke-width="2" fill="none"/>
             </svg>
           </div>
         </div>
