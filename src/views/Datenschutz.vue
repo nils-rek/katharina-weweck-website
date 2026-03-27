@@ -14,73 +14,101 @@
         <div>
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">1. Verantwortliche Stelle</h2>
           <p>
-            Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br /><br />
+            Verantwortlich für die Verarbeitung personenbezogener Daten auf dieser Website ist:<br /><br />
             Dr. Katharina Weweck<br />
             Psychologische Psychotherapeutin<br />
-            Kolbermoor<br />
+            Räumlichkeiten der Praxis Bernadette Tegzes<br />
+            Carl-Jordan-Straße 13<br />
+            83059 Kolbermoor<br />
             Telefon: 0160 9034 7932<br />
-            E-Mail: Psychotherapie.weweck@posteo.de
+            E-Mail: psychotherapie.weweck@posteo.de
           </p>
         </div>
 
         <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">2. Erhebung und Speicherung personenbezogener Daten</h2>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">2. Datenschutz – Allgemeine Hinweise</h2>
           <p>
-            Beim Besuch dieser Website werden automatisch Informationen allgemeiner Natur erfasst.
-            Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das
-            verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers und
-            ähnliche Daten. Dies sind ausschließlich Informationen, die keine Rückschlüsse auf Ihre
-            Person zulassen. Diese Daten werden aus technischen Gründen benötigt, um die Inhalte
-            der Website korrekt auszuliefern und die dauerhafte Funktionsfähigkeit der
-            IT-Systeme sicherzustellen. Sie werden nicht mit anderen Datenquellen zusammengeführt.
+            Der Schutz Ihrer persönlichen Daten ist mir ein wichtiges Anliegen. Ich behandle Ihre
+            personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften,
+            insbesondere der Datenschutz-Grundverordnung (DSGVO), sowie dieser Datenschutzerklärung.
+          </p>
+          <p class="mt-3">
+            Personenbezogene Daten werden nur verarbeitet, soweit eine gesetzliche Grundlage besteht
+            oder Sie hierzu eingewilligt haben.
           </p>
         </div>
 
         <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">3. Kontaktaufnahme</h2>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">3. Erhebung und Verarbeitung personenbezogener Daten</h2>
+          <h3 class="font-semibold text-charcoal mb-2">a) Besuch der Website (Server-Logfiles)</h3>
           <p>
-            Wenn Sie mich per Telefon oder E-Mail kontaktieren, werden Ihre Angaben (Name,
-            Kontaktdaten, ggf. Ihr Anliegen) zur Bearbeitung Ihrer Anfrage bei mir gespeichert.
-            Diese Daten gebe ich nicht ohne Ihre Einwilligung weiter. Die Verarbeitung dieser Daten
-            erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der
-            Erfüllung eines Vertrags zusammenhängt, oder auf Grundlage von Art. 6 Abs. 1 lit. f
-            DSGVO aufgrund meines berechtigten Interesses an der Bearbeitung Ihrer Anfrage.
+            Beim Aufruf dieser Website werden durch den Webserver automatisiert Informationen erfasst
+            und temporär gespeichert (sog. Server-Logfiles). Dabei handelt es sich insbesondere um:
           </p>
-        </div>
-
-        <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">4. Therapeutische Schweigepflicht</h2>
-          <p>
-            Als Psychologische Psychotherapeutin unterliege ich der gesetzlichen Schweigepflicht
-            gemäß § 203 StGB. Alle Informationen, die mir im Rahmen der therapeutischen Beziehung
-            anvertraut werden, werden streng vertraulich behandelt. Eine Weitergabe an Dritte
-            erfolgt nur mit Ihrer ausdrücklichen schriftlichen Einwilligung oder wenn eine
-            gesetzliche Pflicht dazu besteht.
-          </p>
-        </div>
-
-        <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">5. Ihre Rechte</h2>
-          <p>Sie haben folgende Rechte bezüglich Ihrer personenbezogenen Daten:</p>
           <ul class="list-disc list-inside mt-3 space-y-1">
-            <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
-            <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
-            <li>Recht auf Löschung (Art. 17 DSGVO)</li>
-            <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
-            <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
-            <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
+            <li>IP-Adresse des anfragenden Endgeräts</li>
+            <li>Datum und Uhrzeit des Zugriffs</li>
+            <li>aufgerufene Seite bzw. Datei</li>
+            <li>Referrer-URL</li>
+            <li>verwendeter Browser</li>
+            <li>Betriebssystem</li>
+            <li>Name des Access-Providers</li>
           </ul>
           <p class="mt-3">
-            Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die
-            Verarbeitung Ihrer personenbezogenen Daten durch mich zu beschweren.
+            Diese Daten sind technisch erforderlich, um einen stabilen und sicheren Betrieb der Website
+            zu gewährleisten und die Inhalte korrekt darzustellen.
+          </p>
+          <p class="mt-3">
+            Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der technischen
+            Sicherheit und Stabilität).
+          </p>
+          <p class="mt-3">
+            Die Daten werden nicht mit anderen Datenquellen zusammengeführt und nicht verwendet,
+            um Rückschlüsse auf Ihre Person zu ziehen. Eine Löschung erfolgt, sobald sie für die
+            genannten Zwecke nicht mehr erforderlich sind.
           </p>
         </div>
 
         <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">6. Cookies</h2>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">4. Kontaktaufnahme per Telefon oder E-Mail</h2>
           <p>
-            Diese Website verwendet keine Cookies und setzt keine Tracking- oder Analysewerkzeuge
-            ein. Es werden keine personenbezogenen Daten zu Werbezwecken erhoben oder verarbeitet.
+            Wenn Sie per Telefon oder E-Mail Kontakt zu mir aufnehmen, werden die von Ihnen
+            übermittelten Daten (z. B. Name, Kontaktdaten, Ihr Anliegen) ausschließlich zur
+            Bearbeitung Ihrer Anfrage gespeichert und verwendet.
+          </p>
+          <p class="mt-3">
+            Rechtsgrundlage:<br />
+            Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) oder<br />
+            Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung Ihrer Anfrage).
+          </p>
+          <p class="mt-3">
+            Eine Weitergabe an Dritte erfolgt nicht ohne Ihre ausdrückliche Einwilligung.
+          </p>
+          <p class="mt-3">
+            Bitte beachten Sie, dass die Datenübertragung per E-Mail Sicherheitslücken aufweisen kann.
+            Schreiben Sie daher keine sensiblen Gesundheitsdaten in unverschlüsselte E-Mails.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">5. Therapeutische Schweigepflicht</h2>
+          <p>
+            Als psychologische Psychotherapeutin unterliege ich der gesetzlichen Schweigepflicht
+            gemäß § 203 StGB. Alle Informationen, die mir anvertraut werden, werden streng
+            vertraulich behandelt. Eine Weitergabe an Dritte erfolgt ausschließlich mit Ihrer
+            ausdrücklichen schriftlichen Einwilligung oder aufgrund gesetzlicher Verpflichtungen.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">6. Cookies und Tracking</h2>
+          <p>
+            Diese Website verwendet keine Cookies, keine Tracking- oder Analyse-Tools und keine
+            Werbedienste. Es werden keine personenbezogenen Daten zu Marketing- oder Analysezwecken erhoben.
+          </p>
+          <p class="mt-3">
+            Sollten zukünftig Cookies oder Analyse-Dienste eingesetzt werden, wird diese
+            Datenschutzerklärung entsprechend angepasst.
           </p>
         </div>
 
@@ -88,21 +116,58 @@
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">7. Google Fonts</h2>
           <p>
             Diese Website nutzt zur einheitlichen Darstellung von Schriftarten sogenannte
-            Google Fonts. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Schriftarten
-            direkt von Google. Dabei wird Ihre IP-Adresse an Google übermittelt. Weitere
-            Informationen finden Sie in der Datenschutzerklärung von Google:
+            Google Fonts, die von Google bereitgestellt werden. Beim Aufruf der Seite lädt Ihr
+            Browser die benötigten Schriftarten direkt von Google-Servern. Dabei kann Ihre
+            IP-Adresse an Google übermittelt werden.
+          </p>
+          <p class="mt-3">
+            Weitere Informationen finden Sie in der Datenschutzerklärung von Google:
             <a href="https://policies.google.com/privacy" class="text-sage-400 hover:text-sage-500 underline" target="_blank" rel="noopener noreferrer">
               https://policies.google.com/privacy
             </a>.
           </p>
+          <p class="mt-3">
+            Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer
+            ansprechenden Darstellung der Website).
+          </p>
         </div>
 
         <div>
-          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">8. Aktualität und Änderung dieser Datenschutzerklärung</h2>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">8. Ihre Rechte als betroffene Person</h2>
+          <p>Sie haben gegenüber mir folgende Rechte:</p>
+          <ul class="list-disc list-inside mt-3 space-y-1">
+            <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
+            <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+            <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+            <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+            <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
+            <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
+            <li>Recht auf Widerruf einer erteilten Einwilligung (Art. 7 Abs. 3 DSGVO)</li>
+          </ul>
+          <p class="mt-3">
+            Zur Wahrnehmung Ihrer Rechte können Sie sich jederzeit an mich wenden.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">9. Beschwerderecht bei der Aufsichtsbehörde</h2>
           <p>
-            Diese Datenschutzerklärung hat den Stand März 2026. Durch die Weiterentwicklung
-            der Website oder aufgrund geänderter gesetzlicher Vorgaben kann es notwendig werden,
-            diese Datenschutzerklärung zu ändern.
+            Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.
+          </p>
+          <p class="mt-3">
+            Zuständige Aufsichtsbehörde für meine Praxis ist:<br /><br />
+            Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)<br />
+            Promenade 27<br />
+            91522 Ansbach<br />
+            Telefon: 0981 53 13 00
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-serif text-xl font-bold text-charcoal mb-3">10. Aktualität und Änderungen dieser Datenschutzerklärung</h2>
+          <p>
+            Diese Datenschutzerklärung ist aktuell gültig (Stand: März 2026). Durch Weiterentwicklung
+            der Website oder gesetzliche Änderungen kann eine Aktualisierung erforderlich werden.
           </p>
         </div>
       </div>

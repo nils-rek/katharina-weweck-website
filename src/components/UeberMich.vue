@@ -3,38 +3,42 @@
     <div class="max-w-5xl mx-auto px-6">
       <div class="grid md:grid-cols-5 gap-12 md:gap-16 items-start">
         <!-- Left: Section heading -->
-        <div class="md:col-span-2">
+        <div class="md:col-span-2" v-bind="headingReveal">
           <p class="text-sage-400 font-medium tracking-widest text-sm uppercase mb-3">Über mich</p>
           <h2 class="font-serif text-3xl md:text-4xl font-bold text-charcoal leading-snug">
-            Persönlich. Kompetent. Engagiert.
+            Empathisch. Professionell. Engagiert.
           </h2>
-          <div class="mt-6 w-16 h-0.5 bg-sage-400/40"></div>
+          <div class="mt-6 gold-rule"></div>
         </div>
 
         <!-- Right: Bio text -->
-        <div class="md:col-span-3 space-y-5 text-charcoal/80 leading-relaxed text-[1.05rem]">
+        <div class="md:col-span-3 space-y-5 text-charcoal/80 leading-relaxed text-[1.05rem]" v-bind="bioReveal">
           <p>
-            Herzlich willkommen! Ich bin Dr. Katharina Weweck, approbierte Psychologische
-            Psychotherapeutin mit dem Schwerpunkt Verhaltenstherapie. In meiner Praxis in Kolbermoor
-            biete ich Ihnen einen geschützten Raum, in dem wir gemeinsam an Ihren individuellen Anliegen arbeiten können.
+            Herzlich willkommen! Mein Name ist Dr. Katharina Weweck und ich bin approbierte
+            psychologische Psychotherapeutin mit dem Schwerpunkt auf Kognitiver Verhaltenstherapie.
+            In meinem Praxisraum in Kolbermoor biete ich Ihnen einen geschützten Raum, in dem wir
+            gemeinsam an Ihren individuellen Anliegen arbeiten können.
           </p>
           <p>
-            Nach meinem Psychologiestudium an der Universität Kassel und der TU Dresden
-            (M.Sc. Klinische Psychologie, Abschluss mit Auszeichnung) habe ich meine Promotion an der
-            Universität Kassel mit summa cum laude abgeschlossen. Mein Forschungsschwerpunkt lag auf
-            der Diagnostik und Behandlung von Persönlichkeitsstörungen.
+            In meiner psychotherapeutischen Arbeit greife ich auf eine langjährige klinische
+            Erfahrung mit unterschiedlichen psychischen Belastungen zurück – von Depressionen
+            und Angststörungen bis hin zu komplexeren, länger bestehenden Mustern. Ein besonderer
+            Schwerpunkt liegt dabei auf der Schematherapie, die dabei unterstützt, tief verwurzelte
+            Denk‑, Gefühls‑ und Beziehungsmuster zu erkennen und nachhaltig zu verändern –
+            insbesondere dann, wenn sich bestimmte Schwierigkeiten immer wiederholen.
           </p>
           <p>
-            Meine klinische Erfahrung sammelte ich unter anderem am Max-Planck-Institut für Psychiatrie
-            in München, wo ich als Studientherapeutin und wissenschaftliche Mitarbeiterin tätig war,
-            sowie an der Schön Klinik Roseneck im Bereich affektive Störungen und Angststörungen.
-            Meine psychotherapeutische Ausbildung absolvierte ich an der Kirinus Akademie in München
-            mit dem Schwerpunkt Einzel- und Gruppentherapie.
+            Mit diesen Themen habe ich mich auch im Rahmen meiner Promotionsarbeit intensiv
+            auseinandergesetzt, unter anderem mit belastenden Persönlichkeitsmerkmalen und deren
+            Bedeutung für therapeutische Ansätze wie die Schematherapie und die Kognitive
+            Verhaltenstherapie. Dieses fachliche Verständnis prägt meine therapeutische Haltung
+            und fließt unmittelbar in meine Arbeit ein.
           </p>
           <p>
-            In meiner therapeutischen Arbeit verbinde ich wissenschaftlich fundierte Methoden der
-            kognitiven Verhaltenstherapie, Schematherapie und DBT mit einer warmherzigen und
-            wertschätzenden Haltung. So finden wir gemeinsam den Weg, der für Sie passt.
+            Mein Anliegen ist es, Sie dabei zu begleiten, sich selbst besser zu verstehen, neue
+            Perspektiven und Handlungsmöglichkeiten zu entwickeln und Schritt für Schritt spürbare
+            Entlastung im Alltag zu erfahren. Gemeinsam erarbeiten wir einen Weg, der zu Ihnen
+            und Ihren individuellen Anliegen passt.
           </p>
         </div>
       </div>
@@ -42,9 +46,10 @@
       <!-- Qualifications -->
       <div class="mt-16 grid sm:grid-cols-3 gap-6">
         <div
-          v-for="qual in qualifications"
+          v-for="(qual, i) in qualifications"
           :key="qual.title"
-          class="bg-cream-50 rounded-xl p-6 border border-cream-200/60"
+          v-bind="cardReveals[i]"
+          class="bg-cream-50 rounded-xl p-6 border border-cream-200/60 border-t-2 border-t-gold-400/40 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
         >
           <div class="w-10 h-10 rounded-lg bg-sage-100 flex items-center justify-center mb-4">
             <svg class="w-5 h-5 text-sage-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -62,16 +67,28 @@
 </template>
 
 <script setup>
+import { useScrollReveal } from '../composables/useScrollReveal'
+
+const { reveal } = useScrollReveal()
+
+const headingReveal = reveal()
+const bioReveal = reveal({ delay: 100 })
+const cardReveals = [
+  reveal({ delay: 0 }),
+  reveal({ delay: 80 }),
+  reveal({ delay: 160 }),
+]
+
 const qualifications = [
   {
     icon: 'academic',
-    title: 'Dr. phil. (summa cum laude)',
+    title: 'Dr. phil.',
     text: 'Promotion an der Universität Kassel mit Schwerpunkt Persönlichkeitsstörungen und deren dimensionale Diagnostik.',
   },
   {
     icon: 'clinic',
     title: 'Approbierte Psychotherapeutin',
-    text: 'Ausbildung an der Kirinus Akademie München mit Schwerpunkt Verhaltenstherapie in Einzel- und Gruppensetting.',
+    text: 'Ausbildung an der Kirinus Akademie München mit Schwerpunkt Kognitive Verhaltenstherapie in Einzel- und Gruppensetting.',
   },
   {
     icon: 'research',

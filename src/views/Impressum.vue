@@ -18,13 +18,18 @@
             Psychologische Psychotherapeutin<br />
             Kolbermoor
           </p>
+          <p class="mt-3">
+            Räumlichkeiten der Praxis Bernadette Tegzes<br />
+            Carl-Jordan-Straße 13<br />
+            83059 Kolbermoor
+          </p>
         </div>
 
         <div>
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">Kontakt</h2>
           <p>
             Telefon: 0160 9034 7932<br />
-            E-Mail: Psychotherapie.weweck@posteo.de
+            E-Mail: psychotherapie.weweck@posteo.de
           </p>
         </div>
 
@@ -39,30 +44,36 @@
         <div>
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">Zuständige Aufsichtsbehörde</h2>
           <p>
-            Regierung von Oberbayern<br />
-            Maximilianstraße 39<br />
-            80538 München
+            Bayerische Landeskammer der Psychologischen Psychotherapeuten
+            und der Kinder- und Jugendlichenpsychotherapeuten<br />
+            Birketweg 30<br />
+            80639 München<br />
+            <a href="https://www.ptk-bayern.de" class="text-sage-400 hover:text-sage-500 underline"
+               target="_blank" rel="noopener noreferrer">https://www.ptk-bayern.de</a>
           </p>
         </div>
 
         <div>
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">Berufsrechtliche Regelungen</h2>
           <p>
-            Psychotherapeutengesetz (PsychThG)<br />
-            Berufsordnung für die Psychologischen Psychotherapeuten und
-            Kinder- und Jugendlichenpsychotherapeuten Bayerns
+            Es gelten folgende berufsrechtliche Regelungen:
+            <a href="https://www.ptk-bayern.de/ptk/web.nsf/gfx/6C346C54E1CF5561C1257D630045CA14/$file/Berufsordnung_PTK_Bayern.pdf"
+               class="text-sage-400 hover:text-sage-500 underline" target="_blank" rel="noopener noreferrer">
+              Berufsordnung der PTK Bayern (PDF)
+            </a>
           </p>
           <p class="mt-2">
             Zuständige Kammer:<br />
             Bayerische Landeskammer der Psychologischen Psychotherapeuten
             und der Kinder- und Jugendlichenpsychotherapeuten (PTK Bayern)<br />
-            St.-Paul-Str. 9<br />
-            80336 München
+            <a href="https://www.ptk-bayern.de" class="text-sage-400 hover:text-sage-500 underline"
+               target="_blank" rel="noopener noreferrer">https://www.ptk-bayern.de</a>
           </p>
         </div>
 
         <div>
           <h2 class="font-serif text-xl font-bold text-charcoal mb-3">Haftungsausschluss</h2>
+          <p class="mb-4">Arztregistereintrag: LANR 0535817</p>
           <h3 class="font-semibold text-charcoal mb-2">Haftung für Inhalte</h3>
           <p>
             Die Inhalte dieser Seite wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
