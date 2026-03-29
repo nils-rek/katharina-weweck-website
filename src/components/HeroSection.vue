@@ -24,8 +24,12 @@
             Dr. Katharina Weweck
           </h1>
           <div class="hero-enter animate-hero-fade-in-2 gold-rule mb-6"></div>
-          <p class="hero-enter animate-hero-fade-in-2 text-lg md:text-xl text-charcoal/70 leading-relaxed mb-8 max-w-lg">
+          <p class="hero-enter animate-hero-fade-in-2 text-lg md:text-xl text-charcoal/70 leading-relaxed mb-5 max-w-lg">
             Einfühlsame und evidenzbasierte Psychotherapie in Kolbermoor.
+          </p>
+          <p class="hero-enter animate-hero-fade-in-2 inline-flex items-center gap-2 text-sage-500 bg-sage-50 border border-sage-200/60 rounded-full px-5 py-2 text-sm font-medium mb-8">
+            <span class="w-2 h-2 rounded-full bg-sage-400 animate-pulse"></span>
+            Aktuell freie Therapieplätze verfügbar — kurzfristige Terminvergabe möglich
           </p>
           <div class="hero-enter animate-hero-fade-in-3 flex flex-col sm:flex-row gap-4">
             <a

@@ -9,7 +9,6 @@
         <div class="gold-rule mx-auto mt-5"></div>
         <p class="mt-4 text-charcoal/60 max-w-2xl mx-auto">
           Mein Angebot richtet sich an Privatversicherte.
-          Therapiesitzungen sind in Präsenz in Kolbermoor möglich.
         </p>
       </div>
 

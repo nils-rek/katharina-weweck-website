@@ -27,9 +27,6 @@
             Versicherungs- bzw. Beihilfebedingungen. Es empfiehlt sich daher, die individuellen
             Vertragsbedingungen vor oder zu Beginn der Behandlung zu prüfen.
           </p>
-          <p class="text-charcoal/75 leading-relaxed mt-4">
-            Gerne unterstütze ich Sie dabei im Rahmen der ersten Sitzungen.
-          </p>
         </div>
 
         <!-- Selbstzahlung -->
@@ -55,7 +52,7 @@
             Auch Coaching und psychologische Beratung erfolgen grundsätzlich auf
             Selbstzahlerbasis. Die Abrechnung richtet sich ebenfalls nach der GOP.
           </p>
-          <p class="text-charcoal/75 leading-relaxed mt-4 font-medium text-charcoal/90">
+          <p class="text-charcoal/75 leading-relaxed mt-4">
             Das Honorar für eine 50-minütige Einzelsitzung beträgt in der Regel 134,06 €.
           </p>
         </div>
