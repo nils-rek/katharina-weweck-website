@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://psychotherapie-weweck.de/sitemap.xml
