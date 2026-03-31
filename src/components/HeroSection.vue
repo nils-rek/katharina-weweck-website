@@ -67,7 +67,11 @@
 
       <!-- Availability notice -->
       <div class="hero-enter animate-hero-fade-in-4 mt-8 text-center">
-        <p class="inline-block text-sage-600 bg-sage-50/80 border border-sage-200/50 rounded-lg px-6 py-3 text-sm md:text-base font-medium tracking-wide">
+        <p class="inline-flex items-center gap-2.5 text-sage-600 bg-sage-50/80 border border-sage-200/50 rounded-full px-6 py-2.5 text-sm md:text-base font-medium tracking-wide">
+          <span class="relative flex h-2 w-2 shrink-0">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sage-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-sage-400"></span>
+          </span>
           Aktuell freie Therapieplätze verfügbar — kurzfristige Terminvergabe möglich
         </p>
       </div>
