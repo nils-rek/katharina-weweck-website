@@ -34,7 +34,7 @@
           v-bind="cardReveals[1]"
           class="bg-white rounded-xl p-8 border border-cream-200/60 border-t-2 border-t-gold-400/40"
         >
-          <h3 class="font-serif text-xl font-bold text-charcoal mb-4">Selbstzahlung</h3>
+          <h3 class="font-serif text-xl font-bold text-charcoal mb-4">Selbstzahlende</h3>
           <p class="text-charcoal/75 leading-relaxed">
             Eine psychotherapeutische Behandlung ist unabhängig vom Versicherungsstatus auch auf
             Selbstzahlerbasis möglich. In diesem Fall erfolgt keine Abrechnung über die
